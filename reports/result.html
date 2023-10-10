@@ -1,0 +1,1474 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>LUMA Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 3, 2023 01:37:04 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('device-view')">
+<a id="nav-device" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tablet"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">HimanshuLilhore</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
+<ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Windows10</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking CreateAccount Functionality</p>
+            <p class="text-sm">
+              <span>1:37:04 PM</span> / <span>00:00:22:081</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking CreateAccount Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:37:04 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:37:26 PM</span>
+<span class='badge badge-default'>00:00:22:081</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\CreateAccount.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\CreateAccount.jpg">
+    <div class="title">CreateAccount</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:04 PM</td>
+        <td>
+          New report : Checking CreateAccount Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:05 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:05 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:05 PM</td>
+        <td>
+          Running CreateAccount script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:12 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:37:21 PM</td>
+        <td>
+          Account created successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:26 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking Login Functionality</p>
+            <p class="text-sm">
+              <span>1:37:26 PM</span> / <span>00:00:18:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking Login Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:37:26 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:37:44 PM</span>
+<span class='badge badge-default'>00:00:18:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Login.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Login.jpg">
+    <div class="title">Login</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:26 PM</td>
+        <td>
+          New report : Checking Login Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:26 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:26 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:26 PM</td>
+        <td>
+          Running Login script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:33 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:37:39 PM</td>
+        <td>
+          Logged in successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:44 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking Logout Functionality</p>
+            <p class="text-sm">
+              <span>1:37:44 PM</span> / <span>00:00:19:225</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking Logout Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:37:44 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:38:04 PM</span>
+<span class='badge badge-default'>00:00:19:225</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Logout.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Logout.jpg">
+    <div class="title">Logout</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:44 PM</td>
+        <td>
+          New report : Checking Logout Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:45 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:45 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:45 PM</td>
+        <td>
+          Running Logout script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:37:51 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:37:59 PM</td>
+        <td>
+          Logged out successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:04 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking Unsubscribe Functionality</p>
+            <p class="text-sm">
+              <span>1:38:04 PM</span> / <span>00:00:22:721</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking Unsubscribe Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:38:04 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:38:27 PM</span>
+<span class='badge badge-default'>00:00:22:721</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Unsubscribe.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Unsubscribe.jpg">
+    <div class="title">Unsubscribe</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:04 PM</td>
+        <td>
+          New report : Checking Unsubscribe Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:04 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:04 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:04 PM</td>
+        <td>
+          Running Unsubscribe script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:10 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:38:22 PM</td>
+        <td>
+          Unsubscribed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:27 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking Subscribe Functionality</p>
+            <p class="text-sm">
+              <span>1:38:27 PM</span> / <span>00:00:24:927</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking Subscribe Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:38:27 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:38:52 PM</span>
+<span class='badge badge-default'>00:00:24:927</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Subscribe.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\Subscribe.jpg">
+    <div class="title">Subscribe</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:27 PM</td>
+        <td>
+          New report : Checking Subscribe Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:27 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:27 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:27 PM</td>
+        <td>
+          Running Subscribe script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:33 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:38:47 PM</td>
+        <td>
+          Subscribed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:52 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking EditAccount Functionality</p>
+            <p class="text-sm">
+              <span>1:38:52 PM</span> / <span>00:00:25:460</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking EditAccount Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:38:52 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:39:17 PM</span>
+<span class='badge badge-default'>00:00:25:460</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\EditAccount.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\EditAccount.jpg">
+    <div class="title">EditAccount</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:52 PM</td>
+        <td>
+          New report : Checking EditAccount Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:52 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:52 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:52 PM</td>
+        <td>
+          Running EditAccount script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:38:58 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:39:13 PM</td>
+        <td>
+          Account edited successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:17 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking AddToCart Functionality</p>
+            <p class="text-sm">
+              <span>1:39:17 PM</span> / <span>00:00:23:176</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking AddToCart Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:39:17 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:39:40 PM</span>
+<span class='badge badge-default'>00:00:23:176</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\AddToCart.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\AddToCart.jpg">
+    <div class="title">AddToCart</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:17 PM</td>
+        <td>
+          New report : Checking AddToCart Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:17 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:17 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:17 PM</td>
+        <td>
+          Running AddToCart script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:23 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:39:36 PM</td>
+        <td>
+          Item added to cart successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:40 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking AddToWishlist Functionality</p>
+            <p class="text-sm">
+              <span>1:39:40 PM</span> / <span>00:00:30:067</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking AddToWishlist Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:39:40 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:40:10 PM</span>
+<span class='badge badge-default'>00:00:30:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\AddToWishlist.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\AddToWishlist.jpg">
+    <div class="title">AddToWishlist</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:40 PM</td>
+        <td>
+          New report : Checking AddToWishlist Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:40 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:40 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:40 PM</td>
+        <td>
+          Running AddToWishlist script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:39:47 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:06 PM</td>
+        <td>
+          Item added to Wishlist successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:10 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking WishlistToCart Functionality</p>
+            <p class="text-sm">
+              <span>1:40:10 PM</span> / <span>00:00:30:867</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking WishlistToCart Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:40:10 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:40:41 PM</span>
+<span class='badge badge-default'>00:00:30:867</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\WishlistToCart.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\WishlistToCart.jpg">
+    <div class="title">WishlistToCart</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:10 PM</td>
+        <td>
+          New report : Checking WishlistToCart Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:11 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:11 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:11 PM</td>
+        <td>
+          Running WishlistToCart script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:17 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:40:37 PM</td>
+        <td>
+          Product successfully moved from wishlist to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:41 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking DeleteFromCart Functionality</p>
+            <p class="text-sm">
+              <span>1:40:41 PM</span> / <span>00:00:29:113</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Checking DeleteFromCart Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:40:41 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:41:11 PM</span>
+<span class='badge badge-default'>00:00:29:113</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\DeleteFromCart.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\DeleteFromCart.jpg">
+    <div class="title">DeleteFromCart</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:41 PM</td>
+        <td>
+          New report : Checking DeleteFromCart Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:42 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:42 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:42 PM</td>
+        <td>
+          Running DeleteFromCart script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:40:47 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:41:06 PM</td>
+        <td>
+          Item Deleted from cart successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:11 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author="HimanshuLilhore"
+          tag=""
+          device="Windows10">
+          <div class="test-detail">
+            <p class="name">Checking ForgotPassword Functionality</p>
+            <p class="text-sm">
+              <span>1:41:11 PM</span> / <span>00:00:24:580</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Checking ForgotPassword Functionality</h5>
+<span class='badge badge-success'>03.03.2023 1:41:11 PM</span>
+<span class='badge badge-danger'>03.03.2023 1:41:35 PM</span>
+<span class='badge badge-default'>00:00:24:580</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HimanshuLilhore</span>
+<span class="badge badge-pill badge-default">Windows10</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\ForgotPassword.jpg' src="C:\Users\hlilhore\eclipse-workspace\LUMA\Screenshots\ForgotPassword.jpg">
+    <div class="title">ForgotPassword</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:11 PM</td>
+        <td>
+          New report : Checking ForgotPassword Functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:11 PM</td>
+        <td>
+          Fetched the required sheet from excel file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:11 PM</td>
+        <td>
+          Loaded locators from .properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:11 PM</td>
+        <td>
+          Running ForgotPassword script
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:16 PM</td>
+        <td>
+          Opening the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:41:31 PM</td>
+        <td>
+          Failed to validate Forgot password functionality
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:41:35 PM</td>
+        <td>
+          Closed the browser
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Windows10</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Windows10</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Checking CreateAccount Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Checking Login Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Checking Logout Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Checking Unsubscribe Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Checking Subscribe Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Checking EditAccount Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:39:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Checking AddToCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:39:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Checking AddToWishlist Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:40:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Checking WishlistToCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:40:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Checking DeleteFromCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:41:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Checking ForgotPassword Functionality</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">HimanshuLilhore</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>HimanshuLilhore</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Checking CreateAccount Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Checking Login Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:37:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Checking Logout Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Checking Unsubscribe Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Checking Subscribe Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:38:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Checking EditAccount Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:39:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Checking AddToCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:39:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Checking AddToWishlist Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:40:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Checking WishlistToCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:40:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Checking DeleteFromCart Functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:41:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Checking ForgotPassword Functionality</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 3, 2023 01:37:04 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 3, 2023 01:41:35 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='9%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='12%'><b>10</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> events failed,
+<b data-tooltip='%'>66</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Checking CreateAccount Functionality":22.081,"Checking Login Functionality":18.022,"Checking Logout Functionality":19.225,"Checking Unsubscribe Functionality":22.721,"Checking Subscribe Functionality":24.927,"Checking EditAccount Functionality":25.46,"Checking AddToCart Functionality":23.176,"Checking AddToWishlist Functionality":30.067,"Checking WishlistToCart Functionality":30.867,"Checking DeleteFromCart Functionality":29.113,"Checking ForgotPassword Functionality":24.58
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>HimanshuLilhore</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90.909%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 device-container">
+<div class="card">
+<div class="card-header"><p>Device</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Windows10</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90.909%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 10,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 66
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

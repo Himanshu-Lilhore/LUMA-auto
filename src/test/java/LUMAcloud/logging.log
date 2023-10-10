@@ -1,0 +1,94 @@
+2023-03-03 13:37:04 INFO  CreateAccount:125 - Extent report initialized
+2023-03-03 13:37:04 INFO  CreateAccount:138 - New report : Checking CreateAccount Functionality
+2023-03-03 13:37:05 INFO  CreateAccount:90 - Fetched the required sheet from excel file
+2023-03-03 13:37:05 INFO  CreateAccount:106 - Loaded locators from .properties file
+2023-03-03 13:37:05 INFO  CreateAccount:60 - Running CreateAccount script
+2023-03-03 13:37:12 INFO  CreateAccount:68 - Opening the browser
+2023-03-03 13:37:21 INFO  CreateAccount:75 - Account created successfully
+2023-03-03 13:37:26 INFO  CreateAccount:78 - Closed the browser
+2023-03-03 13:37:26 INFO  Login:138 - New report : Checking Login Functionality
+2023-03-03 13:37:26 INFO  Login:90 - Fetched the required sheet from excel file
+2023-03-03 13:37:26 INFO  Login:106 - Loaded locators from .properties file
+2023-03-03 13:37:26 INFO  Login:60 - Running Login script
+2023-03-03 13:37:33 INFO  Login:68 - Opening the browser
+2023-03-03 13:37:39 INFO  Login:61 - Logged in successfully
+2023-03-03 13:37:44 INFO  Login:78 - Closed the browser
+2023-03-03 13:37:44 INFO  Logout:138 - New report : Checking Logout Functionality
+2023-03-03 13:37:45 INFO  Logout:90 - Fetched the required sheet from excel file
+2023-03-03 13:37:45 INFO  Logout:106 - Loaded locators from .properties file
+2023-03-03 13:37:45 INFO  Logout:60 - Running Logout script
+2023-03-03 13:37:51 INFO  Logout:68 - Opening the browser
+2023-03-03 13:37:59 INFO  Logout:39 - Logged out successfully
+2023-03-03 13:38:04 INFO  Logout:78 - Closed the browser
+2023-03-03 13:38:04 INFO  Unsubscribe:138 - New report : Checking Unsubscribe Functionality
+2023-03-03 13:38:04 INFO  Unsubscribe:90 - Fetched the required sheet from excel file
+2023-03-03 13:38:04 INFO  Unsubscribe:106 - Loaded locators from .properties file
+2023-03-03 13:38:04 INFO  Unsubscribe:60 - Running Unsubscribe script
+2023-03-03 13:38:10 INFO  Unsubscribe:68 - Opening the browser
+2023-03-03 13:38:22 INFO  Unsubscribe:45 - Unsubscribed successfully
+2023-03-03 13:38:27 INFO  Unsubscribe:78 - Closed the browser
+2023-03-03 13:38:27 INFO  Subscribe:138 - New report : Checking Subscribe Functionality
+2023-03-03 13:38:27 INFO  Subscribe:90 - Fetched the required sheet from excel file
+2023-03-03 13:38:27 INFO  Subscribe:106 - Loaded locators from .properties file
+2023-03-03 13:38:27 INFO  Subscribe:60 - Running Subscribe script
+2023-03-03 13:38:33 INFO  Subscribe:68 - Opening the browser
+2023-03-03 13:38:47 INFO  Subscribe:55 - Subscribed successfully
+2023-03-03 13:38:52 INFO  Subscribe:78 - Closed the browser
+2023-03-03 13:38:52 INFO  EditAccount:138 - New report : Checking EditAccount Functionality
+2023-03-03 13:38:52 INFO  EditAccount:90 - Fetched the required sheet from excel file
+2023-03-03 13:38:52 INFO  EditAccount:106 - Loaded locators from .properties file
+2023-03-03 13:38:52 INFO  EditAccount:60 - Running EditAccount script
+2023-03-03 13:38:58 INFO  EditAccount:68 - Opening the browser
+2023-03-03 13:39:13 INFO  EditAccount:89 - Account edited successfully
+2023-03-03 13:39:17 INFO  EditAccount:78 - Closed the browser
+2023-03-03 13:39:17 INFO  AddToCart:138 - New report : Checking AddToCart Functionality
+2023-03-03 13:39:17 INFO  AddToCart:90 - Fetched the required sheet from excel file
+2023-03-03 13:39:17 INFO  AddToCart:106 - Loaded locators from .properties file
+2023-03-03 13:39:17 INFO  AddToCart:60 - Running AddToCart script
+2023-03-03 13:39:23 INFO  AddToCart:68 - Opening the browser
+2023-03-03 13:39:36 INFO  AddToCart:51 - Item added to cart successfully
+2023-03-03 13:39:40 INFO  AddToCart:78 - Closed the browser
+2023-03-03 13:39:40 INFO  AddToWishlist:138 - New report : Checking AddToWishlist Functionality
+2023-03-03 13:39:40 INFO  AddToWishlist:90 - Fetched the required sheet from excel file
+2023-03-03 13:39:40 INFO  AddToWishlist:106 - Loaded locators from .properties file
+2023-03-03 13:39:40 INFO  AddToWishlist:60 - Running AddToWishlist script
+2023-03-03 13:39:47 INFO  AddToWishlist:68 - Opening the browser
+2023-03-03 13:40:06 INFO  AddToWishlist:46 - Item added to Wishlist successfully
+2023-03-03 13:40:10 INFO  AddToWishlist:78 - Closed the browser
+2023-03-03 13:40:10 INFO  WishlistToCart:138 - New report : Checking WishlistToCart Functionality
+2023-03-03 13:40:11 INFO  WishlistToCart:90 - Fetched the required sheet from excel file
+2023-03-03 13:40:11 INFO  WishlistToCart:106 - Loaded locators from .properties file
+2023-03-03 13:40:11 INFO  WishlistToCart:60 - Running WishlistToCart script
+2023-03-03 13:40:17 INFO  WishlistToCart:68 - Opening the browser
+2023-03-03 13:40:37 INFO  WishlistToCart:38 - Product successfully moved from wishlist to cart
+2023-03-03 13:40:41 INFO  WishlistToCart:78 - Closed the browser
+2023-03-03 13:40:41 INFO  DeleteFromCart:138 - New report : Checking DeleteFromCart Functionality
+2023-03-03 13:40:42 INFO  DeleteFromCart:90 - Fetched the required sheet from excel file
+2023-03-03 13:40:42 INFO  DeleteFromCart:106 - Loaded locators from .properties file
+2023-03-03 13:40:42 INFO  DeleteFromCart:60 - Running DeleteFromCart script
+2023-03-03 13:40:47 INFO  DeleteFromCart:68 - Opening the browser
+2023-03-03 13:41:06 INFO  DeleteFromCart:43 - Item Deleted from cart successfully
+2023-03-03 13:41:11 INFO  DeleteFromCart:78 - Closed the browser
+2023-03-03 13:41:11 INFO  ForgotPassword:138 - New report : Checking ForgotPassword Functionality
+2023-03-03 13:41:11 INFO  ForgotPassword:90 - Fetched the required sheet from excel file
+2023-03-03 13:41:11 INFO  ForgotPassword:106 - Loaded locators from .properties file
+2023-03-03 13:41:11 INFO  ForgotPassword:60 - Running ForgotPassword script
+2023-03-03 13:41:16 INFO  ForgotPassword:68 - Opening the browser
+2023-03-03 13:41:31 INFO  ForgotPassword:51 - Failed to validate Forgot password functionality
+2023-03-03 13:41:35 INFO  ForgotPassword:78 - Closed the browser
+2023-03-05 20:09:35 INFO  WishlistToCart:125 - Extent report initialized
+2023-03-05 20:09:35 INFO  WishlistToCart:138 - New report : Checking WishlistToCart Functionality
+2023-03-05 20:09:38 INFO  WishlistToCart:90 - Fetched the required sheet from excel file
+2023-03-05 20:09:38 INFO  WishlistToCart:106 - Loaded locators from .properties file
+2023-03-05 20:09:38 INFO  WishlistToCart:60 - Running WishlistToCart script
+2023-03-05 20:09:48 INFO  WishlistToCart:68 - Opening the browser
+2023-03-05 20:10:07 INFO  WishlistToCart:38 - Product successfully moved from wishlist to cart
+2023-03-05 20:10:12 INFO  WishlistToCart:78 - Closed the browser
+2023-03-06 12:16:36 INFO  WishlistToCart:125 - Extent report initialized
+2023-03-06 12:16:36 INFO  WishlistToCart:138 - New report : Checking WishlistToCart Functionality
+2023-03-06 12:16:37 INFO  WishlistToCart:90 - Fetched the required sheet from excel file
+2023-03-06 12:16:37 INFO  WishlistToCart:106 - Loaded locators from .properties file
+2023-03-06 12:16:37 INFO  WishlistToCart:60 - Running WishlistToCart script
+2023-03-06 12:16:42 INFO  WishlistToCart:68 - Opening the browser
+2023-03-06 12:16:57 INFO  WishlistToCart:38 - Product successfully moved from wishlist to cart
+2023-03-06 12:17:02 INFO  WishlistToCart:78 - Closed the browser

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="LUMAeCommerce.CreateAccount"/>
+      <class name="LUMAeCommerce.Login"/>
+      <class name="LUMAeCommerce.Logout"/>
+      <class name="LUMAeCommerce.Unsubscribe"/>
+      <class name="LUMAeCommerce.Subscribe"/>
+      <class name="LUMAeCommerce.EditAccount"/>
+      <class name="LUMAeCommerce.AddToCart"/>
+      <class name="LUMAeCommerce.AddToWishlist"/>
+      <class name="LUMAeCommerce.WishlistToCart"/>
+      <class name="LUMAeCommerce.DeleteFromCart"/>
+      <class name="LUMAeCommerce.ForgotPassword"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
